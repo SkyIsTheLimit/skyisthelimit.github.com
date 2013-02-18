@@ -1,0 +1,13 @@
+#main-container {
+	background: #111;
+	color: #CCC;
+}
+
+.message {
+	margin: 100px auto;
+	font-weight: bold;
+	font-size: 36pt;
+	padding: 100pt;
+	text-align: center;
+	font-family: 'Freckle Face', cursive;
+}
