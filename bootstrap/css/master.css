@@ -1,3 +1,8 @@
+#main-container {
+	background: #111;
+	color: #CCC;
+}
+
 .message {
 	margin: 100px 50px;
 	font-weight: bold;
@@ -7,4 +12,5 @@
 	font-family: 'Freckle Face', cursive;
 	background: #111;
 	color: #CCC;
+	border-bottom: 2px solid #9C0;
 }
