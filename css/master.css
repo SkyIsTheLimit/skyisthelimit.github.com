@@ -1,0 +1,34 @@
+.container-fluid h1,
+.container-fluid .message {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.container-fluid h1 {
+	font-size: 550%;
+
+	text-align: center;
+
+	margin-top: 20%;
+}
+
+.container-fluid .message {
+	font-size: 300%;
+	color: #333;
+
+	text-align: center;
+}
+.section-1 {
+	background-color: #333;
+	color: #EEE;
+
+	height: 400px;
+}
+
+.section-2 {
+	background-color: #FFF;
+
+	border-bottom: 5px solid #9C0;
+
+	/*margin-top: 40px;*/
+}
