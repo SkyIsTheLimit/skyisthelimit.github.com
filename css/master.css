@@ -1,34 +1,67 @@
-.container-fluid h1,
-.container-fluid .message {
+html * {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 }
 
-.container-fluid h1 {
-	font-size: 550%;
+#sink {
+	background-color: #FFFFFF;
+}
 
+.profile img {
+	border-radius: 50%;
+
+	display: block;
+	margin: 0 auto;
+
+	width: 30%;
+	height: auto;
+}
+
+.name span {
+	font-size: 32pt;
+	font-weight: 300;
+}
+
+.website a {
+	font-size: 30pt;
+
+	color: #9999CC;
+}
+
+.website {
+	margin-top: 10px;
+}
+
+.coming-soon h1 {
+	font-size: 30pt;
+	color: #CCCCFF;
+}
+
+.name span {
+	border-bottom: 2px dotted black;
+}
+
+span.sandeep span,
+span.prasad span {
+	color: red;
+	border-bottom: 2px solid red;	
+}
+
+.center {
 	text-align: center;
-
-	margin-top: 20%;
+	font-size: 0;
 }
 
-.container-fluid .message {
-	font-size: 300%;
-	color: #333;
+@media only screen and (max-width: 767px) {
+	.name span {
+		font-size: 20pt;
+	}
 
-	text-align: center;
-}
-.section-1 {
-	background-color: #333;
-	color: #EEE;
+	.website a {
+		font-size: 18pt;
+	}
 
-	height: 400px;
-}
-
-.section-2 {
-	background-color: #FFF;
-
-	border-bottom: 5px solid #9C0;
-
-	/*margin-top: 40px;*/
+	.coming-soon h1 {
+		font-size: 18pt;
+	}
 }

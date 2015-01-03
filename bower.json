@@ -1,0 +1,25 @@
+{
+  "name": "Sandeep Prasad",
+  "version": "0.0.0",
+  "homepage": "http://sandeepp.me",
+  "authors": [
+    "Sandeep Prasad <sandeep3180@gmail.com>"
+  ],
+  "description": "This is my personal website.",
+  "main": "index.html",
+  "keywords": [
+    "SANDEEP"
+  ],
+  "license": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic": "*"
+  }
+}
