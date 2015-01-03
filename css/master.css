@@ -64,4 +64,8 @@ span.prasad span {
 	.coming-soon h1 {
 		font-size: 18pt;
 	}
+
+	.profile img {
+		width: 50%;
+	}
 }
