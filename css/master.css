@@ -34,7 +34,7 @@ html * {
 
 .coming-soon h1 {
 	font-size: 30pt;
-	color: #CCCCFF;
+	color: #333;
 }
 
 .name span {
@@ -44,7 +44,7 @@ html * {
 span.sandeep span,
 span.prasad span {
 	color: red;
-	border-bottom: 2px solid red;	
+	border-bottom: 2px solid red;
 }
 
 .center {
